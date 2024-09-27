@@ -41,5 +41,20 @@ A simple chatbot application built with Flask and Hugging Face's `transformers` 
 
 ## Deployment
 
-To deploy the application, you can use platforms like Heroku or AWS. Make sure to install Gunicorn and create a `Procfile`:
+To deploy the application, you can use platforms like Heroku or AWS. Make sure to install Gunicorn and create a `Procfile`: 
+
+web: gunicorn run
+
+Then, follow the deployment instructions for your chosen platform.
+
+## Contributing
+
+Feel free to contribute to this project by opening issues or submitting pull requests.
+
+## License
+
+This project is licensed under the MIT License.
+
+
+
 
